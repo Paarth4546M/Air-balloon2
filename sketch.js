@@ -23,7 +23,7 @@ function setup() {
 
  var  balloonpos = database.ref("Balloon/position");
  balloonpos.on("value",readpos)
-  text("Use Arrow Key to Control The Balloon",70,30)
+ 
 }
 
 function draw() {
